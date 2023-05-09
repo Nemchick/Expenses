@@ -1,0 +1,80 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 28px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 67px;
+}
+h1 {
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+  margin-bottom: 41px;
+  font-weight: 700;
+  width: 236px;
+  height: 39px;
+}
+.inbut {
+  width: 484px;
+  height: 58px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #000000;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+.button {
+  border: none;
+  width: 370px;
+  height: 58px;
+  background: #0094ff;
+  margin-top: 80px;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+  cursor: pointer;
+}
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+  margin-top: 43px;
+}
+ol {
+  margin-top: 21px;
+  margin-left: 45px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+.box-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 51px;
+  row-gap: 13px;
+}
+.text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+.text-span {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+.status{
+  color: green;
+}
+.status-red{
+  color: red;
+}

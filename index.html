@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Expenses</title>
+  </head>
+  <body>
+    <section class="section">
+      <div class="box-left">
+        <h1>Учёт расходов</h1>
+        <input class="js-input inbut" type="number" />
+        <div class="box-text">
+          <p class="text">Лимит: <span class="js-limit text-span"></span><span class="text-span"> руб.</span></p>
+          <p class="text">Всего: <span class="js-total text-span"> </span><span class="text-span"> руб.</span></p>
+          <p class="text">Статус: <span class="js-status text-span status"></span></p>
+        </div>
+      </div>
+      <div class="box-right">
+        <button class="js-button button">Добавить</button>
+        <h2>История:</h2>
+        <div class="js-history"></div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
